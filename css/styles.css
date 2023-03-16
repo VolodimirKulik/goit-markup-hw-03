@@ -163,7 +163,10 @@ body{
     gap: 24px;
 }
 
-.skill-item {}
+.skill-item {
+    width: 264px;
+    height: 72px;
+}
 
 .skill-text {
     line-height: 1.5;
@@ -190,14 +193,20 @@ body{
 }
 
 .info-item {}
+.info-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 .team {
+    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-our-title {
-    margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -211,12 +220,16 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: 0;
+    padding-bottom: 8px;
 }
-
+.container-team{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .team-list {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .team-item {
@@ -228,10 +241,13 @@ body{
 .team-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
 }
 /*-------------------SERCH------------------*/
 .serch {
    padding-bottom: 120px;
+   padding-top: 96px;
 }
 .serch-title {
     font-size: 56px;
@@ -241,8 +257,7 @@ body{
     color: #ffffff;
 }
 .serch-list{
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -267,6 +282,7 @@ body{
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     justify-content: center;
+    background: #F4F4FD;
 }
 .btn-all{
     width: 69px;
@@ -294,18 +310,23 @@ body{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .catalog-list{
-    min-width: 360px;
+    width: 360px;
     height: 420px;
-    padding-bottom: 48px;
     display: flex;
     gap: 24px;
 }
-.catalog-item{
+.container-catalog{
+    padding-top: 32px;
     border: 1px solid #E7E9FC;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+.catalog-item{
 }
 .catalog-title {
     font-family: 'Roboto', sans-serif;
-    padding-left: 16px;
+    padding: 0;
+    margin: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -318,7 +339,8 @@ body{
 
 .catalog-text {
     font-family: 'Roboto', sans-serif;
-    padding-left: 16px;
+    padding: 0;
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -334,19 +356,15 @@ body{
 /*-------------------CATALOG END------------------*/
 /*-------------------FOOTER------------------*/
 .footer {
-    min-width: 1440px;
-    height: 312px;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
     background: #2E2F42;
 }
 .container-footer{
-    max-width: 264px;
-    height: 112px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin: 0px;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
+    padding-bottom: 17.5px;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -369,5 +387,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+    width: 264px;
+    height: 72px;
+    margin: 0;
 }
 /*-------------------FOOTER END------------------*/
