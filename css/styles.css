@@ -120,14 +120,12 @@ img {
 
 .service-title {
     max-width: 496px;
-    height: 120px;
     margin: 0 auto;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
-    padding-bottom: 48px;
 }
 
 .service-btn {
@@ -170,7 +168,6 @@ img {
 
 .skill-item {
     width: 264px;
-    height: 72px;
 }
 
 .skill-text {
@@ -211,7 +208,7 @@ img {
 }
 
 .team-our-title {
-    margin-bottom: 72px;
+    margin: 0px 0px 72px 0px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -231,6 +228,7 @@ img {
 .container-team{
     padding-top: 32px;
     padding-bottom: 32px;
+    background-color: #FFFFFF;
 }
 .team-list {
     display: flex;
@@ -316,8 +314,9 @@ img {
 }
 .catalog-list{
     display: flex;
-    gap: 24px;
-    margin-bottom: 48px;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px
 }
 .container-catalog{
     padding-top: 32px;
